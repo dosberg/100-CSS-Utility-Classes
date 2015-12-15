@@ -15,5 +15,7 @@
 	- (274) Displaying
 	- (333) Mobile hiding
 	- (350) Print hiding
-	- 
+	
 	@dosberg on Twitter for any comments. Enjoy!
+
+<a href="https://raw.githubusercontent.com/dosberg/100-CSS-Utility-Classes/master/utilities.css">View</a>
