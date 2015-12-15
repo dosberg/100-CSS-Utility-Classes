@@ -18,4 +18,4 @@ TOC
 <a href="http://twitter.com/dosberg">@dosberg</a> on Twitter for any comments.
 
 
-<a href="https://github.com/dosberg/100-CSS-Utility-Classes/blob/master/utilities.css">View classes</a>
+## <a href="https://github.com/dosberg/100-CSS-Utility-Classes/blob/master/utilities.css">View classes</a>
