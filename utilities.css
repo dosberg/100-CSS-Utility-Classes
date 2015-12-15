@@ -1,0 +1,355 @@
+/* 
+	100 utility classes that I've found useful while developing. You may find them 
+	useful depending on your paradigm and workflow. My intent was to be overally 
+	specific with the naming so they make sense to anyone reading the HTML document. 
+
+	TOC
+	- (23)	Positioning
+	- (40) 	Vertical alignments	
+	- (69) 	Text alignments
+	- (80) 	Text styles
+	- (98) 	Element widths
+	- (163) Element heights
+	- (228) Floats
+	- (242) Rounded corners
+	- (274) Displaying
+	- (333) Mobile hiding
+	- (350) Print hiding
+
+	@dosberg on Twitter for any comments. Enjoy!
+*/
+
+
+/* Positioning */
+.position-absolute {
+	position: absolute;
+}
+.position-relative {
+	position: relative; 
+}
+.position-fixed {
+	position: fixed;
+}
+.position-static {
+	position: static;
+}
+.position-inherit {
+	position: inherit;
+}
+
+/* Vertical alignments */
+.align-baseline {
+  vertical-align: baseline;
+}
+.align-sub {
+  vertical-align: sub;
+}
+.align-super {
+  vertical-align: super;
+}
+.align-top {
+  vertical-align: top;
+}
+.align-text-top {
+  vertical-align: text-top;
+}
+.align-middle {
+  vertical-align: middle;
+}
+.align-bottom {
+  vertical-align: bottom;
+}
+.align-text-bottom {
+  vertical-align: text-bottom;
+}
+.align-inherit {
+  vertical-align: inherit;
+}
+
+/* Text alignments */
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+
+/* Text styles */
+.text-underlined {
+    text-decoration: underline;
+}
+.text-bold {
+    font-weight: bold;
+}
+.text-no-wrap {
+	white-space: nowrap;
+}
+.text-truncate {
+	max-width: 100%;
+  	overflow: hidden;
+  	text-overflow: ellipsis;
+  	white-space: nowrap;
+  	word-wrap: normal;
+}
+
+/* Element widths */
+.width-0-percent { 
+	width: 0% 
+}
+.width-5-percent { 
+	width: 5% 
+}
+.width-10-percent { 
+	width: 10% 
+}
+.width-15-percent { 
+	width: 15%; 
+}
+.width-20-percent { 
+	width: 20%; 
+}
+.width-25-percent { 
+	width: 25%; 
+}
+.width-30-percent { 
+	width: 30%; 
+}
+.width-35-percent { 
+	width: 35%; 
+}
+.width-40-percent { 
+	width: 40%; 
+}
+.width-45-percent { 
+	width: 45%; 
+}
+.width-50-percent { 
+	width: 50%; 
+}
+.width-55-percent { 
+	width: 55%; 
+}
+.width-60-percent { 
+	width: 60%; 
+}
+.width-65-percent { 
+	width: 65%; 
+}
+.width-70-percent { 
+	width: 70%; 
+}
+.width-75-percent { 
+	width: 75%; 
+}
+.width-80-percent { 
+	width: 80%; 
+}
+.width-85-percent { 
+	width: 85%; 
+}
+.width-90-percent { 
+	width: 90%; 
+}
+.width-95-percent { 
+	width: 95%; 
+}
+.width-100-percent { 
+	width: 100%; 
+}
+
+/* Element heights */
+.height-0-percent { 
+	height: 0%;
+}
+.height-5-percent { 
+	height: 5%;
+}
+.height-10-percent { 
+	height: 10%;
+}
+.height-15-percent { 
+	height: 15%;
+}
+.height-20-percent { 
+	height: 20%;
+}
+.height-25-percent { 
+	height: 25%;
+}
+.height-30-percent { 
+	height: 30%;
+}
+.height-35-percent { 
+	height: 35%;
+}
+.height-40-percent { 
+	height: 40%;
+}
+.height-45-percent { 
+	height: 45%;
+}
+.height-50-percent { 
+	height: 50%;
+}
+.height-55-percent { 
+	height: 55%;
+}
+.height-60-percent { 
+	height: 60%;
+}
+.height-65-percent { 
+	height: 65%;
+}
+.height-70-percent { 
+	height: 70%;
+}
+.height-75-percent { 
+	height: 75%;
+}
+.height-80-percent { 
+	height: 80%;
+}
+.height-85-percent { 
+	height: 85%;
+}
+.height-90-percent { 
+	height: 90%;
+}
+.height-95-percent { 
+	height: 95%;
+}
+.height-100-percent { 
+	height: 100%;
+}
+
+/* Floats */
+.float-left {
+	float: left;
+}
+.float-right {
+	float: right;
+}
+.float-none {
+	float: none;
+}
+.float-inherit {
+	float: inherit;
+}
+
+/* Rounded corners */
+.rounded-corner-5 {
+    border-radius: 5px;
+}
+.rounded-corner-10 {
+    border-radius: 10px;
+}
+.rounded-corner-15 {
+    border-radius: 15px;
+}
+.rounded-corner-20 {
+    border-radius: 20px;
+}
+.rounded-corner-25 {
+    border-radius: 25px;
+}
+.rounded-corner-30 {
+    border-radius: 30px;
+}
+.rounded-corner-35 {
+    border-radius: 35px;
+}
+.rounded-corner-40 {
+    border-radius: 40px;
+}
+.rounded-corner-45 {
+    border-radius: 45px;
+}
+.rounded-corner-50 {
+    border-radius: 50px;
+}
+
+/* Displaying */
+.display-inline {
+	display: inline;
+}
+.display-block {
+	display: block;
+}
+.display-flex {
+	display: flex;
+}
+.display-inline-block {
+	display: inline-block;
+}
+.display-inline-flex {
+	display: inline-flex;
+}
+.display-inline-table {
+	display: inline-table;
+}
+.display-list-item {
+	display: list-item;
+}
+.display-run-in {
+	display: run-in;
+}
+.display-table {
+	display: table;
+}
+.display-table-caption {
+	display: table-caption;
+}
+.display-table-column-group {
+	display: table-column-group;
+}
+.display-table-header-group {
+	display: table-header-group;
+}
+.display-table-footer-group {
+	display: table-footer-group;
+}
+.display-table-row-group {
+	display: table-row-group;
+}
+.display-table-cell {
+	display: table-cell;
+}
+.display-table-column {
+	display: table-column;
+}
+.display-table-row {
+	display: table-row;
+}
+.display-none {
+	display: none;
+}
+.display-inherit {
+	display: inherit;
+}
+
+/* Mobile hiding (NOTE: elements are still loaded in the DOM, they're just not seen.) */
+@media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+	.hide-for-mobile {
+		display: none;
+	}
+}
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+	.hide-for-tablet {
+		display: none;
+	}
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+	.hide-for-tablet-landscape {
+		display: none;
+	}
+}
+
+/* Print hiding */
+@media print {
+    .hide-for-print {
+        display: none;
+    }
+}
